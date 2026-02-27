@@ -21,7 +21,7 @@ antora:
 
 asciidoc:
   attributes:
-    showroom-collection-version: v1.5.2
+    showroom-collection-version: v1.5.4
 
 output:
   dir: ./www
