@@ -30,11 +30,3 @@ tabs:
   # Gitea - Source Code
   - name: Gitea
     url: 'https://gitea.${DOMAIN}'
-
-  # Base64 Decoder Tool
-  - name: Base64 Decoder
-    url: 'https://www.base64decode.org/'
-
-  # REST Client Tool
-  - name: REST Client
-    url: 'https://reqbin.com/'
