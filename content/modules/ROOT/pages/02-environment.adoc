@@ -1,0 +1,41 @@
+= Setup
+:imagesdir: ../assets/images/
+
+== Challenge environment
+
+Your environment includes:
+
+* OpenShift cluster 
+* Quarkus-based application
+* Red Hat Advanced Cluster Security (ACS)
+* OpenShift GitOps (ArgoCD)
+* Tekton pipelines
+* Gitea source code repository
+* Hashicorp Vault
+
+
+== Environment access
+
+You have access to:
+
+* **CTF Dashboard** -- Mission tracking and leaderboard
+* **OpenShift Console** -- Running OpenShift {ocp_version}
+* **Red Hat Advanced Cluster Security (ACS)** -- Security monitoring and compliance
+* **OpenShift GitOps (ArgoCD)** -- GitOps deployment platform
+* **Gitea** -- Source code repository
+
+The mission tracking and flag submissions happen on the Leaderboard (first tab).
+
+
+== Access information
+
+* Username: `{user}`
+* Password: `{password}`
+
+=== Cautions !!!
+
+You must choose to login with OpenShift SSO integration to all tools 
+
+EXCEPT GitOps, to which you need to login using LOCAL authentication !
+
+

@@ -1,0 +1,58 @@
+= Mission details
+:imagesdir: ../assets/images/
+
+
+== Challenge flow
+
+This CTF consists of:
+
+1. **Point Zero** -- Initial reconnaissance mission (10 points that you can use to start unlocking hints)
+1. **Main Quest** -- 6 sequential missions that unlock as you progress (850 points total)
+2. **Side Missions** -- 5 parallel missions that can be completed anytime (75 poitns each, so 375 extra points total)
+
+Total possible points: 1225
+
+Estimated time: 2-4 hours (depending on experience level)
+
+
+== Winning the CTF
+
+Your final score depends on:
+
+* Flags discovered : to win, you must collect a maximum number of flags/points.
+* Speed : in case of a tie, the fastest wins, so you also have to be fast!
+* Hints used : to help you go faster, you can unlock mission's hints, but they will cost you some points.
+
+
+== Challenge breakdown
+
+**Point Zero** (10 points) -- Initial reconnaissance
+
+=== Main Quest (Sequential missions)
+
+1. **Run!** (50 points) -- Get to the starting point
+2. **Captain Hook** (100 points) -- Find the exploit
+3. **Blind Test** (100 points) -- Find the leak
+4. **Pearl Harbour** (100 points) -- Work around the infrastructure limitation
+5. **Inception** (250 points) -- Deep dive information retrieval
+6. **I've got you babe** (200 points) -- Final challenge
+
+=== Side Missions (Parallel missions)
+
+* **Grizzly Credentials** (50 points)
+* **Chessmaster** (50 points)
+* **Vault Tec** (50 points)
+* **Moby-Dick** (50 points)
+* **Hypotek** (50 points)
+
+
+== Getting started
+
+Start by opening the OpenShift web console.
+You'll land in the namespace of the application that has been hacked.
+You can notice that a pipeline has run, which created the malicious application, but the hacker, somehow, managed to destroy the image before leaving.
+This explains why the Pod is not there.
+
+Pay attention to the PipelineRun object.
+
+Good luck!

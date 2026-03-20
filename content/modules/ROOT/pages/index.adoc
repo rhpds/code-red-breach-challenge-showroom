@@ -1,16 +1,15 @@
 = {lab_name}: A Capture The Flag game
 
-Welcome to the Code Red Breach Challenge!
+Welcome to the Code Red: Breach Challenge!
 
-== What is this challenge?
+== What is this lab?
 
 This lab is a Capture The Flag (CTF) game where you'll step into the role of a DevSecOps expert investigating a security breach.
 
 The game is divided into missions and each mission ends when the mission flag is discovered.
 A flag is an element of information related to security, such as a password, an IP address, or other sensitive data.
 
-This CTF game has a quest of 4 missions set in sequence (the next mission unlocks only when the previous one is complete)
-and some extra missions that can be done in parallel to collect more points.
+This CTF game has multiple missions (some missions are unlocked only when a previous one is complete).
 
 == What you'll learn
 
@@ -19,69 +18,39 @@ In this challenge, you will:
 * Investigate security vulnerabilities in an OpenShift environment
 * Analyze compromised applications and CI/CD pipelines
 * Use Red Hat Advanced Cluster Security to identify threats
-* Understand OpenShift GitOps and pipeline security
+* Understand OpenShift GitOps and Pipelines security
 * Apply DevSecOps principles to find and exploit security weaknesses
 * Learn secure coding and infrastructure practices
 
-== Who this is for
+== Who is this for?
 
-This challenge is designed for developers, security professionals, and platform engineers who want to:
+This challenge is designed for developers, administrators, security professionals, and platform engineers who want to:
 
 * Practice DevSecOps skills in a safe environment
 * Learn about common security vulnerabilities in cloud-native applications
 * Understand how attackers exploit weaknesses in CI/CD pipelines
 * Gain hands-on experience with Red Hat security tools
 
-== Challenge environment
+== Expected outcomes
 
-Your environment includes:
+After completing this challenge, you will have:
 
-* OpenShift cluster with a compromised application
-* CTF Dashboard for mission tracking and leaderboard
-* Red Hat Advanced Cluster Security (ACS)
-* OpenShift GitOps (ArgoCD)
-* Tekton pipelines
-* Gitea source code repository
-
-== Winning the CTF
-
-To win, you must collect a maximum number of points.
-Each discovered flag brings you a certain amount of points:
-
-Point Zero                  : 10 points
-
-Code Red Quest
- - 1. Run !                 : 100 points
-
- - 2. Captain Hook          : 150 points
-
- - 3. Blind Test            : 80 points
-
- - 4. Pearl Harbour         : 200 points
-
- - 5. Inception             : 300 points
-
- - 6. I've got you babe     : 350 points
-
-Side Missions
- - Grizzly Credentials      : 50 points
-
- - Chessmaster              : 50 points
-
- - Vault Tec                : 50 points
-
- - Moby-Dick                : 50 points
-
- - Hypotek                  : 50 points
+* Discovered multiple security flags by exploiting vulnerabilities
+* Gained practical experience with security tools (ACS, GitOps, Tekton)
+* Understood common attack vectors in cloud-native environments
+* Learned how to identify and prevent similar breaches
+* Developed stronger DevSecOps investigation skills
 
 
-In case of a tie, the fastest wins, so you also have to be fast!
+== Prerequisites
 
-To help you go faster, you can unlock mission's hints, but they will cost you some points.
+This challenge assumes:
 
-== Let's begin!
+* Basic understanding of Kubernetes and OpenShift
+* Familiarity with CI/CD concepts
+* Basic command-line skills
+* Understanding of security concepts (secrets, authentication, authorization)
+* Problem-solving mindset
 
-The briefing is described on the next page.
-Missions' objectives are described directly on the Leaderboard.
+No prior CTF experience is required, but curiosity and persistence are essential!
 
-Click on the next section to receive your mission briefing.

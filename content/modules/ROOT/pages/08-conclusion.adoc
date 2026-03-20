@@ -3,7 +3,7 @@
 
 == Challenge summary
 
-Congratulations on completing the Code Red Breach Challenge!
+Congratulations on participating in the Code Red Breach Challenge!
 
 Whether you completed all missions or just explored the environment, you've gained valuable hands-on experience with DevSecOps tools and security concepts.
 
@@ -22,8 +22,8 @@ Whether you completed all missions or just explored the environment, you've gain
 
 You explored:
 
-* **Red Hat Advanced Cluster Security** -- Threat detection and compliance
-* **OpenShift GitOps (ArgoCD)** -- GitOps deployment patterns
+* **Red Hat Advanced Cluster Security** -- Threat detection and policy compliance
+* **OpenShift GitOps (ArgoCD)** -- GitOps deployment patterns and variables management
 * **Tekton Pipelines** -- CI/CD security considerations
 * **HashiCorp Vault** -- Secret management best practices
 * **Container security** -- Image scanning and runtime protection
@@ -33,12 +33,12 @@ You explored:
 
 Successful CTF participants typically:
 
-* **Read documentation carefully** -- Details matter in security
+* **Read documentation carefully** -- Details matter in security; a hacker is usually just someone who knows better
 * **Think like an attacker** -- Consider unconventional approaches
 * **Use all available tools** -- ACS, GitOps, pipelines each reveal different information
-* **Check logs and events** -- Kubernetes events and pod logs contain clues
-* **Understand the architecture** -- Component relationships reveal attack paths
-* **Don't give up** -- Hints are available if you get stuck
+* **Check logs, events, and all sources of information** -- Kubernetes events and pod logs contain clues
+* **Understand the architecture** -- Component relationships, visibility, overriding rules... reveal attack paths
+* **Don't give up** -- Keep having stuff up to date
 
 == Next steps
 

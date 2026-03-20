@@ -1,0 +1,98 @@
+=  Employee API
+
+== GET
+
+----
+Path param: /employee/$id
+
+Description: Return a specific Employee by ID, or do nothing
+
+Response:
+ - firstname 
+ - lastname 
+ - email 
+ - phone number
+ - level (optional)
+----
+
+----
+Path param: /employee
+
+Description: Return the list of all (visible) Employees
+
+Response: list of Employee as returned by GET /$id
+----
+
+
+== PUT
+
+----
+Path param: /employee/$id
+
+Description: Update an existing customer or do nothing
+
+Params:
+ - firstname (optional)
+ - lastname (optional)
+ - email (optional)
+ - phone number (optional)
+----
+
+== POST
+
+----
+Path param: /employee
+
+Description: Add a new Employee
+
+Params:
+ - id (optional)
+ - firstname
+ - lastname
+ - email
+ - phone number
+----
+
+
+== Json examples
+
+=== GET
+----
+{
+  "firstname" : "Didier",
+  "lastname" : "Wojciechowski",
+  "email" : "test@redhat.com",
+  "phone" : "+33610101010",
+  "position": "Principal"
+}
+----
+
+=== PUT
+----
+{
+  "firstname" : "Didier",
+  "lastname" : "Wojciechowski",
+  "email" : "test@redhat.com",
+  "phone" : "+33610101010"
+}
+----
+
+=== POST
+----
+{
+  "firstname" : "Didier",
+  "lastname" : "Wojciechowski",
+  "email" : "test@redhat.com",
+  "phone" : "+33610101010"
+}
+----
+OR
+----
+{
+  "id" : "12345",
+  "firstname" : "Didier",
+  "lastname" : "Wojciechowski",
+  "email" : "test@redhat.com",
+  "phone" : "+33610101010"
+}
+----
