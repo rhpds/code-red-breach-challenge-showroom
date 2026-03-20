@@ -1,0 +1,13 @@
+= Component architecture
+:imagesdir: ../assets/images/
+
+
+== Utilities
+
+* https://reqbin.com/[REST Client^]
+
+== Documentation
+
+* https://quarkus.io/guides/openapi-swaggerui[Quarkus OpenAPI spec^]
+
+* {doc_acs}[ACS Network Policies^]

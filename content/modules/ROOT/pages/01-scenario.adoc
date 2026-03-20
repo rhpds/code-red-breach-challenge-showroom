@@ -1,0 +1,21 @@
+= Challenge briefing
+:imagesdir: ../assets/images/
+
+== The scenario
+
+Grab a chair. We don’t have much time.
+
+Last year, a major breach on our platform nearly leveled us. Our forensics team traced the entry point to a compromised Tekton pipeline, which the attacker used to inject malicious code directly into a critical app. We didn’t take that lightly—we overhauled our CI/CD security and locked those pipelines down tight.
+
+Or so we thought.
+
+Yesterday, the Network & Security team flagged another 'Code Red' on the production line. An application hosted on our OpenShift cluster was compromised, and we suspect sensitive database exfiltration. We’ve audited the pipeline runs. The run that occured just before the security breach is clean.  The hacker didn’t get in that way this time. 
+
+We’re at a dead end. We need you to step into the attacker's shoes and find the leak. We’ve provided you with a standard non-privileged account—because if they’d managed to snag admin rights, we wouldn’t even be standing here talking about it.
+
+Your objective: Replicate the attack on the 'Employee' application. The container image is missing, which has stalled our internal investigation, and we’ve already migrated the production database to a safe zone.
+
+The tools are ready. The board is watching. Don't let us down.
+
+
+
