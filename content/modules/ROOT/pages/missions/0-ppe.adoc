@@ -1,0 +1,7 @@
+= Security principles
+:imagesdir: ../assets/images/
+
+== PPE
+
+https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-04-Poisoned-Pipeline-Execution[PPE attack^]
+

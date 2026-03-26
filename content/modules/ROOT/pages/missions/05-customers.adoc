@@ -1,6 +1,10 @@
-=  Employee API
+=  Customers API
 
-== GET
+== Note
+This is a Quarkus application.
+
+== API
+=== GET
 
 ----
 Path param: /employee/$id
