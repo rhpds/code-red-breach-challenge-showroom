@@ -1,0 +1,13 @@
+= Applications
+:imagesdir: ../assets/images/
+
+== Customers
+
+Customers is a Quarkus application exposing a REST API.
+
+It uses SmallRye and has SmallRye OpenAPI enabled.
+
+
+== Calling REST Applications
+
+https://reqbin.com/[Online REST Client^]

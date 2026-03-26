@@ -2,4 +2,4 @@
 :imagesdir: ../assets/images/
 
 
-Find utilities, documentation, architecture documents... to help you
+In that section, find utilities, documentation, architecture documents... to help you in your mission.

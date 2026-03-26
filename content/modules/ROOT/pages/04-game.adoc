@@ -44,4 +44,4 @@ Your final score depends on:
 * **Moby-Dick** (60 points) -- Build vulnerability
 * **Oc or not oc** (60 points) -- ArgoCD access
 
-Total possible points: 1100
+Total possible points: 1110
