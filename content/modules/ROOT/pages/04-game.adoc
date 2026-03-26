@@ -27,21 +27,21 @@ Your final score depends on:
 
 **Point Zero** (10 points) -- Initial reconnaissance
 
-=== Main Quest (Sequential missions, 850 points total)
+=== Main Quest (Sequential missions, 800 points total)
 
 1. **Run!** (50 points) -- Understand the exploit
 2. **Captain Hook** (100 points) -- Rebuild the malicious application
-3. **Blind Test** (100 points) -- Find the remote
-4. **Pearl Harbour** (100 points) -- Work around the infrastructure limitation
-5. **Key Master** (250 points) -- Trace parameters back
+3. **Blind Test** (120 points) -- Find the remote
+4. **Pearl Harbour** (150 points) -- Work around the infrastructure limitation
+5. **Key Master** (180 points) -- Trace parameters back
 6. **I've got you babe** (200 points) -- Final goal
 
-=== Side Missions (Parallel missions; 75 points each, so 375 extra points total)
+=== Side Missions (Parallel missions; 60 points each, so 300 extra points total)
 
-* **Grizzly Credentials** (50 points) -- Pipeline execution
-* **Chessmaster** (50 points) -- Pipeline leak
-* **Vault Tec** (50 points) -- Vault
-* **Moby-Dick** (50 points) -- Build vulnerability
-* **Hypotek** (50 points) -- ArgoCD access
+* **Grizzly Credentials** (60 points) -- Pipeline execution
+* **Chessmaster** (60 points) -- Pipeline leak
+* **Vault Tec** (60 points) -- Vault
+* **Moby-Dick** (60 points) -- Build vulnerability
+* **Oc or not oc** (60 points) -- ArgoCD access
 
-Total possible points: 1225
+Total possible points: 1110
