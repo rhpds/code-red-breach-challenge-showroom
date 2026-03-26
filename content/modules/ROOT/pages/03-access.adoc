@@ -1,0 +1,26 @@
+= Setup
+:imagesdir: ../assets/images/
+
+== Environment access
+
+Via the tabs of the split view, you have access to:
+
+* **CTF Dashboard** -- Mission tracking, flag validation and scoreboard
+* **OpenShift Console** -- Base platform
+* **Red Hat Advanced Cluster Security (ACS)** -- Security monitoring and compliance
+* **OpenShift GitOps (ArgoCD)** -- GitOps deployment platform
+* **Gitea** -- Source code repository
+
+The mission tracking and flag submissions happen on the Leaderboard (first tab).
+That's the first element you need to open and log into.
+
+
+== Access information
+
+* Username: `{user}`
+* Password: `{password}`
+
+=== Cautions !!!
+
+You must choose to login with OpenShift SSO integration to all tools *EXCEPT* GitOps, to which you need to login using LOCAL authentication !
+

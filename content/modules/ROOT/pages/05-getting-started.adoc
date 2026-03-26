@@ -1,0 +1,16 @@
+= Mission briefing
+:imagesdir: ../assets/images/
+
+
+== Getting started
+
+Start by opening the OpenShift web console.
+You'll land in the namespace of the application that has been hacked.
+
+You can notice that a pipeline has run, which created the malicious application, but the hacker, somehow, managed to destroy the image before leaving.
+This explains why the Pod is missing.
+
+First, pay attention to the PipelineRun object, then take it from there.
+
+Good luck!
+

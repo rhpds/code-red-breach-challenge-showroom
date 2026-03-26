@@ -1,6 +1,6 @@
-= {lab_name}: A Capture The Flag game
+= {lab_name}
 
-Welcome to the Code Red: Breach Challenge!
+Welcome to our Capture The Flag game !
 
 == What is this lab?
 

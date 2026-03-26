@@ -1,8 +1,0 @@
-= Component architecture
-:imagesdir: ../assets/images/
-
-== Components
-
-The Application Platform, designed to support our applications, consists of a couple major components, described in the following high level architecture.
-
-image::hlarch.png[High Level Component Architecture,link=self,window=_blank]

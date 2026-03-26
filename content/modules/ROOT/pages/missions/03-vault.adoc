@@ -1,0 +1,36 @@
+= Vault and Secrets
+:imagesdir: ../assets/images/
+
+
+== Vault
+
+Vault is a key-value store.
+The key is found under a specific path, similar to a folder path (i.e. /my/path/to/key).
+
+Vault is divided into multiple Secret Store, which define the root path.
+
+This adds security as an ExternalSecret is relative to a specific Secret Store.
+
+
+== External Secrets
+
+Openshift Secrets are used to contain credentials and other sensitive information.
+
+For security reasons, Secrets are hidden, unmanaged, and the sensitive information is stored in a Vault.
+
+The mechanism of Kubernetes ExternalSecret automatically creates Openshift Secrets with information retrieved from the Vault.
+
+Example
+----
+kind: ExternalSecret
+metadata:
+  name: secret-token-external
+spec:
+  secretStoreRef:
+    name: vault-backend
+    kind: ClusterSecretStore
+  data:
+  - secretKey: my-pat-token
+    remoteRef:
+      key: vault/secret/pat-token
+----
