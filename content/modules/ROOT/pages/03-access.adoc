@@ -19,7 +19,7 @@ That's the first element you need to open and log into.
 
 1. You must choose to login with OpenShift SSO integration to all tools *EXCEPT* GitOps, to which you need to login using LOCAL authentication !
 
-2. When using ACS, stick to the NetworkGraph and Violations view.  The other tabs are not in use for this game.
+2. When using ACS, stick to the NetworkGraph view.  The other tabs are not in use for this game.
 
 == Your credentials : 
 
