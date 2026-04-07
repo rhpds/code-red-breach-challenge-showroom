@@ -26,4 +26,8 @@ That's the first element you need to open and log into.
 * Username: `{user}`
 * Password: `{password}`
 
+== Utilities
 
+=== Client to make REST requests to Applications
+
+https://reqbin.com/[Online REST Client^]

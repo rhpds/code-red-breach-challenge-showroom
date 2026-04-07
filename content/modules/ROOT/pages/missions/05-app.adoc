@@ -10,6 +10,6 @@ It uses SmallRye and has SmallRye OpenAPI enabled.
 https://quarkus.io/guides/openapi-swaggerui[Quarkus OpenAPI^]
 
 
-== Calling REST Applications
+== Client to make REST requests to Applications
 
 https://reqbin.com/[Online REST Client^]
