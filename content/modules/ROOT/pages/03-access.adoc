@@ -21,7 +21,7 @@ That's the first element you need to open and log into.
 https://openshift-gitops-server-openshift-gitops.{ openshift_cluster_ingress_domain } [Red Hat OpenShift GitOps^]
 
 2. When using ACS, stick to the NetworkGraph view.  The other tabs are not in use for this game.
-https://central-stackrox.{ openshift_cluster_ingress_domain } [Red Hat ACS^]
+https://central-stackrox.{openshift_cluster_ingress_domain} [Red Hat ACS^]
 
 
 == Your credentials : 
