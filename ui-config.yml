@@ -19,10 +19,6 @@ tabs:
   - name: OpenShift Console
     url: 'https://console-openshift-console.${DOMAIN}'
 
-  # Red Hat Advanced Cluster Security
-  - name: ACS
-    url: 'https://central-stackrox.${DOMAIN}'
-
   # OpenShift GitOps (ArgoCD)
   - name: GitOps
     url: 'https://openshift-gitops-server-openshift-gitops.${DOMAIN}'
