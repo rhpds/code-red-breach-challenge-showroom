@@ -23,7 +23,7 @@ That's the first element you need to open and log into.
 
 2. When using ACS, stick to the NetworkGraph view.  The other tabs are not in use for this game.
 
-{ acs_route }[Red Hat ACS^]
+{ acs_url }[Red Hat ACS^]
 
 
 == Your credentials : 
