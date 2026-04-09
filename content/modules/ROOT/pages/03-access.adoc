@@ -22,7 +22,7 @@ That's the first element you need to open and log into.
 https://openshift-gitops-server-openshift-gitops.{openshift_cluster_ingress_domain}/[Red Hat Openshift Gitops^]
 
 
-2. When using ACS, stick to the NetworkGraph view.  The other tabs are not in use for this game.
+2. ACS is in use only for one single challenge. The solution will come from the NetworkGraph view. 
 
 https://central-stackrox.{openshift_cluster_ingress_domain}/[Red Hat ACS^]
 
