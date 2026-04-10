@@ -19,10 +19,6 @@ tabs:
   - name: OpenShift Console
     url: 'https://console-openshift-console.${DOMAIN}'
 
-  # OpenShift GitOps (ArgoCD)
-  - name: GitOps
-    url: 'https://openshift-gitops-server-openshift-gitops.${DOMAIN}'
-
   # Gitea - Source Code
   - name: Gitea
     url: 'https://gitea.${DOMAIN}'

@@ -8,19 +8,13 @@ Via the tabs of the split view, you have access to:
 * **CTF Dashboard** -- Mission tracking, flag validation and scoreboard
 * **OpenShift Console** -- Base platform
 * **Red Hat Advanced Cluster Security (ACS)** -- Security monitoring and compliance
-* **OpenShift GitOps (ArgoCD)** -- GitOps deployment platform
 * **Gitea** -- Source code repository
 
 The mission tracking and flag submissions happen on the Leaderboard (first tab).
 That's the first element you need to open and log into.
 
 
-== Access cautions
-
-1. You must choose to login with OpenShift SSO integration to all tools *EXCEPT* GitOps, to which you need to login using LOCAL authentication !
-
-https://openshift-gitops-server-openshift-gitops.{openshift_cluster_ingress_domain}/[Red Hat Openshift Gitops^]
-
+== Note
 
 2. ACS is in use only for one single challenge. The solution will come from the NetworkGraph view. 
 

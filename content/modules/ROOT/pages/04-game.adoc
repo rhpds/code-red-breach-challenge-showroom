@@ -36,12 +36,9 @@ Your final score depends on:
 5. **Key Master** (180 points) -- Trace parameters back
 6. **I've got you babe** (200 points) -- Final goal
 
-=== Side Missions (Parallel missions; 60 points each, so 300 extra points total)
+=== Side Missions (Parallel missions; 60 points each, so 120 extra points total)
 
 * **Grizzly Credentials** (60 points) -- Pipeline execution
-* **Chessmaster** (60 points) -- Pipeline leak
-* **Vault Tec** (60 points) -- Vault
 * **Moby-Dick** (60 points) -- Build vulnerability
-* **Oc or not oc** (60 points) -- ArgoCD access
 
-Total possible points: 1110
+Total possible points: 920

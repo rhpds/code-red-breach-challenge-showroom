@@ -8,7 +8,5 @@
 ** xref:missions/01-standards.adoc[Point Zero]
 ** xref:missions/0-ppe.adoc[PPE]
 ** xref:missions/02-pipeline.adoc[Pipeline Run]
-** xref:missions/03-vault.adoc[Vault and Secrets]
-** xref:missions/04-gitops.adoc[GitOps]
-** xref:missions/05-app.adoc[Application]
+** xref:missions/03-app.adoc[Application]
 * xref:07-conclusion.adoc[Conclusion]
