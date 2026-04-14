@@ -1,4 +1,4 @@
-= Missions helpers
+= Mission helpers
 :imagesdir: ../assets/images/
 
 
