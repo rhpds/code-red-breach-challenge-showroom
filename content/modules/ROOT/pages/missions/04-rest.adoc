@@ -1,0 +1,14 @@
+= REST Client
+:imagesdir: ../assets/images/
+
+You can use any REST client you like to perform the required HTTP calls.
+
+=== Local or desktop clients
+* https://curl.se/download.html[cUrl^]
+* https://httpie.io/cli[HTTPie-cli^]
+* https://httpie.io/download[HTTPie-desktop^]
+
+=== Online clients
+* https://httpie.io/app[HTTPie^]
+* https://hoppscotch.io/[Hoppscotch^]
+* https://reqbin.com/[Reqbin (limited use)^]

@@ -1,16 +1,12 @@
-= Setup
+= Environment
 :imagesdir: ../assets/images/
 
-== Challenge environment
-
-Your environment includes:
+Your environment main includes:
 
 * OpenShift cluster (version {ocp_version})
 * Red Hat Advanced Cluster Security (ACS)
-* OpenShift GitOps (ArgoCD)
 * OpensShift Pipelines (Tekton)
 * Gitea source code repository
-* Hashicorp Vault
 * Quarkus-based application
 
 image::hlarch.png[High Level Component Architecture,link=self,window=_blank]

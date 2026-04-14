@@ -1,7 +1,6 @@
-= Security principles
+= Security standards
 :imagesdir: ../assets/images/
 
-== Corporate standards
 
 Since last year's security issue, the pipeline security was re-enforced, and new standards emerged:
 

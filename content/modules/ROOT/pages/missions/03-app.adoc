@@ -1,7 +1,5 @@
-= Applications
+= Customers Applications
 :imagesdir: ../assets/images/
-
-== Customers
 
 Customers is a Quarkus application exposing a REST API.
 

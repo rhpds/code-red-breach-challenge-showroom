@@ -1,24 +1,22 @@
-= Setup
+= Access
 :imagesdir: ../assets/images/
 
-== Environment access
+== URLs
 
 Via the tabs of the split view, you have access to:
 
 * **CTF Dashboard** -- Mission tracking, flag validation and scoreboard
 * **OpenShift Console** -- Base platform
-* **Red Hat Advanced Cluster Security (ACS)** -- Security monitoring and compliance
 * **Gitea** -- Source code repository
 
 The mission tracking and flag submissions happen on the Leaderboard (first tab).
 That's the first element you need to open and log into.
 
-
-== Note
-
-2. ACS is in use only for one single challenge. The solution will come from the NetworkGraph view. 
+=== ACS
+**Red Hat Advanced Cluster Security (ACS)**, the Security monitoring and compliance tool, cannot be openned in the tab view and needs to be opened in a separate browser tab.  Only the NetworkGraph view is in use in the game. 
 
 https://central-stackrox.{openshift_cluster_ingress_domain}/[Red Hat ACS^]
+
 
 
 == Your credentials : 
@@ -26,8 +24,9 @@ https://central-stackrox.{openshift_cluster_ingress_domain}/[Red Hat ACS^]
 * Username: `{user}`
 * Password: `{password}`
 
-== Utilities
+== Rest client
 
-=== Client to make REST requests to Applications
+You'll need a REST client to perform some HTTP calls.
 
-https://reqbin.com/[Online REST Client^]
+Go to the "Mission Helpers" section of the showroom for more details about available clients.
+

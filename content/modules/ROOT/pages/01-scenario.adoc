@@ -1,4 +1,4 @@
-= Challenge briefing
+= Mission briefing
 :imagesdir: ../assets/images/
 
 == The scenario

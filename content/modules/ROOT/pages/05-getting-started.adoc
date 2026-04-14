@@ -1,8 +1,5 @@
-= Mission briefing
+= Getting started
 :imagesdir: ../assets/images/
-
-
-== Getting started
 
 Start by opening the OpenShift web console.
 You'll land in the namespace of the application that has been hacked.
