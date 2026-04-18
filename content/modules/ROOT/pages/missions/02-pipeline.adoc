@@ -1,6 +1,6 @@
-= Pipeline
-:imagesdir: ../assets/images/
+= Pipeline & Webhooks
 
+:imagesdir: ../assets/images/
 
 == Pipeline Architecture
 
@@ -8,17 +8,16 @@ The pipelines were configured to support the corporate security standards.
 
 image::ctf-pipeline-ssh.png[Pipeline structure,link=self,window=_blank]
 
+== Webhooks on OpenShift
 
-== Webhooks on Openshift
+The webhook mechanism is based on the OpenShift Pipelines Triggers feature.
 
-The webhook mechanism is based on the Openshift Pipelines Triggers feature.
-
-The git-push binding is in use.  It was simplified to map a single parameter.
+The git-push binding is in use, simplified to map a single parameter.
 
 image::ctf-pipeline-trigger.png[Webhook principle,link=self,window=_blank]
 
-More information and examples:
+Follow these links for more information and examples:
 
-https://www.redhat.com/en/blog/guide-to-openshift-pipelines-part-6-triggering-pipeline-execution-from-github[Openshift Pipeline Triggers^]
+* https://www.redhat.com/en/blog/guide-to-openshift-pipelines-part-6-triggering-pipeline-execution-from-github[OpenShift Pipeline Triggers^]
 
-https://gist.github.com/walkingtospace/0dcfe43116ca6481f129cdaa0e112dc4[push-event example (full)^]
+* https://gist.github.com/walkingtospace/0dcfe43116ca6481f129cdaa0e112dc4[push-event json payload example (all params)^]

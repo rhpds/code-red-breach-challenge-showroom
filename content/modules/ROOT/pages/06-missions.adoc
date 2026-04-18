@@ -1,5 +1,0 @@
-= Mission helpers
-:imagesdir: ../assets/images/
-
-
-In that section, find utilities, documentation, architecture documents... to help you in your mission.

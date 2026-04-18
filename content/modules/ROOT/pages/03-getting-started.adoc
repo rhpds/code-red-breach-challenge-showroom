@@ -1,0 +1,40 @@
+= Getting Started
+:imagesdir: ../assets/images/
+
+== Your environment
+
+Your environment includes:
+
+* OpenShift cluster (version {ocp_version})
+* Red Hat Advanced Cluster Security (ACS)
+* OpenShift Pipelines (Tekton)
+* Gitea source code repository
+* Quarkus-based application
+
+image::hlarch.png[High Level Component Architecture,link=self,window=_blank]
+
+== Access
+
+* Via the tabs of the split view: **CTF Dashboard** -- Mission tracking, flag validation, and scoreboard
+* Via the tabs of the split view: **OpenShift Web Console** -- Base platform
+* Via the tabs of the split view: **Gitea** -- Source code repository
+* Cannot be opened in the tab view and needs to be opened in a separate browser tab: **https://central-stackrox.{openshift_cluster_ingress_domain}/[Red Hat Advanced Cluster Security (ACS)^]** -- the security monitoring and compliance tool,  Only the NetworkGraph view is used in the game.
+
+== Your credentials
+
+* Username: `{user}`
+* Password: `{password}`
+
+== Getting started
+
+1. The mission tracking and flag submissions happen on the **CTF Dashboard** (first tab). 
+
+* That's the first thing you need to open and log into using your credentials.
+
+2. Open and log in the **OpenShift Web Console** (second tab)
+
+* You'll land in the namespace of the application that has been hacked — make sure to switch to your namespace otherwise.
+* You'll notice that a pipeline has run, which created the malicious application, but the hacker somehow managed to destroy the image before leaving — which explains why the Pod is missing.
+* First, pay attention to the PipelineRun object, then take it from there.
+
+Good luck!

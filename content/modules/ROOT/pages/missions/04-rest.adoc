@@ -1,6 +1,7 @@
-= REST Client
+= Tools
 :imagesdir: ../assets/images/
 
+== REST Client
 You can use any REST client you like to perform the required HTTP calls.
 
 === Local or desktop clients
