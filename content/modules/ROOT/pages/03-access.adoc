@@ -13,7 +13,7 @@ The mission tracking and flag submissions happen on the Leaderboard (first tab).
 That's the first element you need to open and log into.
 
 === ACS
-**Red Hat Advanced Cluster Security (ACS)**, the Security monitoring and compliance tool, cannot be openned in the tab view and needs to be opened in a separate browser tab.  Only the NetworkGraph view is in use in the game. 
+**Red Hat Advanced Cluster Security (ACS)**, the Security monitoring and compliance tool, cannot be opened in the tab view and needs to be opened in a separate browser tab.  Only the NetworkGraph view is in use in the game. 
 
 https://central-stackrox.{openshift_cluster_ingress_domain}/[Red Hat ACS^]
 
