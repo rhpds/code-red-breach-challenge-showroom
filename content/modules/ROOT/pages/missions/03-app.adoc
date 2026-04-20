@@ -1,4 +1,4 @@
-= Customers Applications
+= Customers Application
 :imagesdir: ../assets/images/
 
 Customers is a Quarkus application exposing a REST API.
@@ -6,8 +6,3 @@ Customers is a Quarkus application exposing a REST API.
 It uses SmallRye and has SmallRye OpenAPI enabled.
 
 https://quarkus.io/guides/openapi-swaggerui[Quarkus OpenAPI^]
-
-
-== Client to make REST requests to Applications
-
-https://reqbin.com/[Online REST Client^]

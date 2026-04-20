@@ -1,12 +1,9 @@
 = Security Standards
+
 :imagesdir: ../assets/images/
 
-
-Since last year's security issue, the pipeline security was re-enforced, and new standards emerged:
+Since last year's security issue, pipeline security was reinforced and new standards were established:
 
 1. All pipelines are automated and are triggered by webhooks.
-
-2. Source code repositories are private and accessible only via SSH Keys.
-
-3. Build images need to come from 'registry.access.redhat.com'
-
+2. Source code repositories are private and accessible only via SSH keys.
+3. "Build Images" must come from `registry.access.redhat.com`.

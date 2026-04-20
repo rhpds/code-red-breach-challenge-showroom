@@ -23,7 +23,7 @@ Whether you completed all missions or just explored the environment, you've gain
 You explored:
 
 * **Red Hat Advanced Cluster Security** -- Threat detection and policy compliance
-* **OpenShift GitOps (ArgoCD)** -- GitOps deployment patterns and variables management
+* **OpenShift GitOps (ArgoCD)** -- GitOps deployment patterns and variable management
 * **Tekton Pipelines** -- CI/CD security considerations
 * **HashiCorp Vault** -- Secret management best practices
 * **Container security** -- Image scanning and runtime protection
@@ -31,20 +31,20 @@ You explored:
 
 == CTF strategies
 
-Successful CTF participants typically:
+Looking back, successful CTF participants typically:
 
-* **Read documentation carefully** -- Details matter in security; a hacker is usually just someone who knows better
+* **Read documentation carefully** -- Details matter in security; the best hackers are simply those who knowns more.
 * **Think like an attacker** -- Consider unconventional approaches
 * **Use all available tools** -- ACS, GitOps, pipelines each reveal different information
 * **Check logs, events, and all sources of information** -- Kubernetes events and pod logs contain clues
-* **Understand the architecture** -- Component relationships, visibility, overriding rules... reveal attack paths
-* **Don't give up** -- Keep having stuff up to date
+* **Understand the architecture** -- Component relationships, visibility, and overriding rules all reveal attack paths
+* **Don't give up** -- Stay persistent and keep trying different approaches
 
 == Next steps
 
 === Continue learning
 
-* Explore Red Hat Advanced Cluster Security deeper features
+* Explore the advanced features of Red Hat Advanced Cluster Security
 * Study OpenShift security hardening best practices
 * Learn about supply chain security (SLSA framework, Sigstore)
 * Investigate advanced Tekton pipeline security patterns
@@ -81,6 +81,8 @@ We value your feedback! Share your thoughts on this challenge to help us create 
 
 == Thank you!
 
-Thank you for participating in the Code Red Breach Challenge. We hope you enjoyed the experience and learned valuable DevSecOps skills.
+Thank you for participating in the Code Red Breach Challenge!
+We hope you enjoyed the experience and learned valuable DevSecOps skills.
 
-Remember: Security is not a product, it's a process. Keep learning, keep practicing, and stay secure!
+
+Remember: security is not a product, it's a process. Keep learning, keep practicing, and stay secure!

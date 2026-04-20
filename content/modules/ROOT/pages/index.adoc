@@ -1,56 +1,56 @@
 = {lab_name}
 
-Welcome to our Capture The Flag game !
+Welcome to our Capture The Flag game!
 
 == What is this lab?
 
 This lab is a Capture The Flag (CTF) game where you'll step into the role of a DevSecOps expert investigating a security breach.
 
-The game is divided into missions and each mission ends when the mission flag is discovered.
-A flag is an element of information related to security, such as a password, an IP address, or other sensitive data.
+The game is divided into missions, and each mission ends when its flag is discovered.
 
-This CTF game has multiple missions (some missions are unlocked only when a previous one is complete).
+A flag is a piece of security-related information, such as a password, an IP address, or other sensitive data.
 
-== What you'll learn
+This CTF game has multiple missions: some are to be completed sequentially (the Main Quest), and some in the order of your choice (the Side Quest).
+
+== What you'll learn?
 
 In this challenge, you will:
 
-* Investigate security vulnerabilities in an OpenShift environment
-* Analyze compromised applications and CI/CD pipelines
-* Use Red Hat Advanced Cluster Security to identify threats
-* Understand OpenShift GitOps and Pipelines security
-* Apply DevSecOps principles to find and exploit security weaknesses
-* Learn secure coding and infrastructure practices
+* Investigate security vulnerabilities in an OpenShift environment.
+* Analyze compromised applications and CI/CD pipelines.
+* Use Red Hat Advanced Cluster Security to identify threats.
+* Understand OpenShift GitOps and Pipelines security.
+* Apply DevSecOps principles to find and exploit security weaknesses.
+* Learn secure coding and infrastructure practices.
 
 == Who is this for?
 
 This challenge is designed for developers, administrators, security professionals, and platform engineers who want to:
 
-* Practice DevSecOps skills in a safe environment
-* Learn about common security vulnerabilities in cloud-native applications
-* Understand how attackers exploit weaknesses in CI/CD pipelines
-* Gain hands-on experience with Red Hat security tools
+* Practice DevSecOps skills in a safe environment.
+* Learn about common security vulnerabilities in cloud-native applications.
+* Understand how attackers exploit weaknesses in CI/CD pipelines.
+* Gain hands-on experience with Red Hat security tools.
 
 == Expected outcomes
 
-After completing this challenge, you will have:
+After completing this challenge, you will:
 
-* Discovered multiple security flags by exploiting vulnerabilities
-* Gained practical experience with security tools (ACS, GitOps, Tekton)
-* Understood common attack vectors in cloud-native environments
-* Learned how to identify and prevent similar breaches
-* Developed stronger DevSecOps investigation skills
-
+* Discover multiple security flags by exploiting vulnerabilities.
+* Gain practical experience with security tools and Red Hat technologies (Red Hat Advanced Cluster Security (ACS), OpenShift GitOps, and OpenShift Pipelines).
+* Understand common attack vectors in cloud-native environments.
+* Learn how to identify and prevent similar breaches.
+* Develop stronger DevSecOps investigation skills.
 
 == Prerequisites
 
 This challenge assumes:
 
-* Basic understanding of Kubernetes and OpenShift
-* Familiarity with CI/CD concepts
-* Basic command-line skills
-* Understanding of security concepts (secrets, authentication, authorization)
-* Problem-solving mindset
+* Basic understanding of Kubernetes and OpenShift.
+* Familiarity with CI/CD concepts.
+* Basic command-line skills.
+* Understanding of security concepts (secrets, authentication, and authorization).
+* Problem-solving mindset.
 
 No prior CTF experience is required, but curiosity and persistence are essential!
 

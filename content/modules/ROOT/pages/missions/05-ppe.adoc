@@ -1,0 +1,9 @@
+= About PPE Attacks
+:imagesdir: ../assets/images/
+
+== What is a Poisoned Pipeline Execution (PPE) ?
+
+Poisoned Pipeline Execution (PPE) risks refer to the ability of an attacker with access to source control systems - and without access to the build environment, to manipulate the build process by injecting malicious code/commands into the build pipeline configuration, essentially "poisoning" the pipeline and running malicious code as part of the build process.
+
+Read more here https://owasp.org/www-project-top-10-ci-cd-security-risks/CICD-SEC-04-Poisoned-Pipeline-Execution[PPE attack^]
+

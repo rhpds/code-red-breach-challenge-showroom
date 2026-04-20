@@ -1,0 +1,10 @@
+= Reference & Tools
+:imagesdir: ../assets/images/
+
+This section contains reference material and tools to help you during the game. You don't need to read it all upfront — consult these pages as needed while working through the missions.
+
+* **Security Standards** -- The corporate security rules put in place after last year's breach
+* **Pipeline & Webhooks** -- How the CI/CD pipeline and webhook triggers are configured
+* **Customers Application** -- Architecture and API details for the target application
+* **REST Client** -- External tools you will be using during your investigation
+* **About PPE Attacks** -- Background on Poisoned Pipeline Execution attacks

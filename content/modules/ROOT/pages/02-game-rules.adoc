@@ -1,0 +1,44 @@
+= Game Rules & Scoring
+:imagesdir: ../assets/images/
+
+
+== Challenge flow
+
+This CTF game consists of:
+
+* **Point Zero** -- Initial reconnaissance mission (optional; unlock 10 points that you can use to buy the first hints)
+* **Main Quest** -- 6 sequential missions that unlock one by one as you progress through the quest
+* **Side Quest** -- 2 missions that can be completed anytime in parallel, for extra points or when you're stuck on a main quest mission waiting for something ...
+
+
+**Estimated time**: 2 hours (depending on experience level)
+
+
+== Winning the CTF
+
+Your final depends on:
+
+* Flags discovered: To win points, you must collect as many flags as possible.
+* Speed: In case of a tie, the fastest wins, so you also have to be fast!
+* Hints used: To help you go faster, you can unlock the mission's hints, but they will cost you some points.
+
+
+== Challenge breakdown
+
+=== Point Zero (10 points) -- Initial reconnaissance
+
+=== Main Quest (Sequential missions, 800 points total)
+
+1. **Run!** (50 points) -- Understand the exploit
+2. **Captain Hook** (100 points) -- Rebuild the malicious application
+3. **Blind Test** (120 points) -- Find the remote
+4. **Pearl Harbor** (150 points) -- Work around the infrastructure limitation
+5. **Key Master** (180 points) -- Trace parameters back
+6. **I've got you babe** (200 points) -- Final goal
+
+=== Side Missions (Parallel missions, 60 points each, so 120 extra points total)
+
+* **Grizzly Credentials** (60 points) -- Pipeline execution
+* **Moby-Dick** (60 points) -- Build vulnerability
+
+Total possible points: 920
