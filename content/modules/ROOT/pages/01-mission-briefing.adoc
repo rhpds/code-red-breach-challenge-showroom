@@ -11,7 +11,8 @@ Or so we thought...
 
 Yesterday, the Network & Security team flagged another 'Code Red' on the production line. 
 
-An application hosted on our OpenShift cluster was compromised, and we suspect sensitive database exfiltration. We’ve audited the pipeline runs. The run that occurred just before the security breach was clean. The hacker didn’t get in that way this time.
+An application hosted on our OpenShift cluster was compromised, and we suspect sensitive database exfiltration. We’ve audited the pipeline runs. The run that occurred just before the security breach is clean.  The hacker didn’t get in that way this time. 
+
 The container image is missing, which has stalled our internal investigation.
 
 We’re at a dead end. We need you to step into the hackers’ shoes, find the exploited security holes, and ultimately identify the hackers.
