@@ -20,4 +20,4 @@ Follow these links for more information and examples:
 
 * https://www.redhat.com/en/blog/guide-to-openshift-pipelines-part-6-triggering-pipeline-execution-from-github[OpenShift Pipeline Triggers^]
 
-* https://gist.github.com/walkingtospace/0dcfe43116ca6481f129cdaa0e112dc4[push-event JSON payload example (all params)^]
+* https://github.com/rh-devsecops-ctf/snippets/blob/main/json/example-of-push-webhook-event.json[push-event JSON payload example (all params)^]
