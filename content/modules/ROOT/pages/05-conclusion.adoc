@@ -69,11 +69,11 @@ Before deploying similar architectures:
 * https://www.vaultproject.io/docs[HashiCorp Vault Documentation^]
 * https://kubernetes.io/docs/concepts/security/[Kubernetes Security Concepts^]
 
-== Leaderboard
+== Scoreboard
 
 Check your final ranking on the CTF Dashboard:
 
-https://ctfd-leaderboard.{openshift_cluster_ingress_domain}/challenges[CTF Dashboard^]
+https://ctfd-leaderboard.{openshift_cluster_ingress_domain}/scoreboard[CTF Scoreboard^]
 
 == Feedback
 
