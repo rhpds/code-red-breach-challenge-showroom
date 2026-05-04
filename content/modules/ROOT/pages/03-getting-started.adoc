@@ -5,7 +5,7 @@
 
 Your environment includes:
 
-* OpenShift cluster (version {ocp_version})
+* OpenShift cluster (version 4.20)
 * Red Hat Advanced Cluster Security (ACS)
 * OpenShift Pipelines (Tekton)
 * Gitea source code repository

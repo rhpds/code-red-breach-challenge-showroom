@@ -71,7 +71,7 @@ Before deploying similar architectures:
 
 == Scoreboard
 
-Check your final ranking on the CTF Dashboard:
+Check your final ranking on the CTF Scoreboard:
 
 https://ctfd-leaderboard.{openshift_cluster_ingress_domain}/scoreboard[CTF Scoreboard^]
 
