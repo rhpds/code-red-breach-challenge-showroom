@@ -10,7 +10,7 @@ content:
 
 ui:
   bundle:
-    url: https://github.com/rhpds/rhdp_showroom_theme/releases/download/rh-summit-2025/ui-bundle.zip
+    url: https://github.com/rhpds/rhdp_showroom_theme/releases/download/summit-2026/ui-bundle.zip
     # Using Summit 2025 theme for Summit 2026 compatibility
     snapshot: true
   supplemental_files:

@@ -69,7 +69,7 @@ Before deploying similar architectures:
 * https://www.vaultproject.io/docs[HashiCorp Vault Documentation^]
 * https://kubernetes.io/docs/concepts/security/[Kubernetes Security Concepts^]
 
-== Leaderboard
+== Scoreboard
 
 Check your final ranking on the CTF Scoreboard:
 

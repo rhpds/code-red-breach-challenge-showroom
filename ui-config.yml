@@ -26,3 +26,7 @@ tabs:
   # Gitea - Source Code
   - name: Gitea
     url: 'https://gitea.${DOMAIN}'
+
+  # ACS - Security
+  - name: ACS
+    url: 'https://central-reencrypt-stackrox.${DOMAIN}'
