@@ -19,10 +19,6 @@ tabs:
   - name: OpenShift Console
     url: 'https://console-openshift-console.${DOMAIN}'
 
-  # ACS - Security and Compliance
-  - name: Advanced Cluster Security
-    url: 'https://central-stackrox.${DOMAIN}'
-
   # Gitea - Source Code
   - name: Gitea
     url: 'https://gitea.${DOMAIN}'
