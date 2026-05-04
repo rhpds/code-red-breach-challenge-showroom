@@ -18,7 +18,7 @@ image::hlarch.png[High Level Component Architecture,link=self,window=_blank]
 * Via the tabs of the split view: **CTF Dashboard** -- Mission tracking, flag validation, and scoreboard
 * Via the tabs of the split view: **OpenShift Web Console** -- Base platform
 * Via the tabs of the split view: **Gitea** -- Source code repository
-* Cannot be opened in the tab view and needs to be opened in a separate browser tab: **https://central-stackrox.{openshift_cluster_ingress_domain}/[Red Hat Advanced Cluster Security (ACS)^]** -- the security monitoring and compliance tool,  Only the NetworkGraph view is used in the game.
+* Via the tabs of the split view: **Advanced Cluster Security** -- the security monitoring and compliance tool. Only the NetworkGraph view is used in the game.
 
 == Your credentials
 
